@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-image: url(pexels-nataliya-vaitkevich-5554752.jpg);
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button.operator {
+  background-color: #f1f1f1;
+}
+
+.button.number {
+  background-color: #d4d4d4;
+}
+
+.button.equals {
+  background-color: #8bc34a;
+  color: white;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}

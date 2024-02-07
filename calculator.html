@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+  <h1 class="text-center">Welcome to My Calculator</h1>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    <div class="row">
+      <input class="input" type="text" readonly/>
+    </div>
+    <div class="row">
+      <button class="button operator" data-value="C">C</button>
+      <button class="button operator" data-value="%">%</button>
+      <button class="button operator" data-value="M+">M+</button>
+      <button class="button operator" data-value="M-">M-</button>
+    </div>
+    <div class="row">
+      <button class="button number" data-value="7">7</button>
+      <button class="button number" data-value="8">8</button>
+      <button class="button number" data-value="9">9</button>
+      <button class="button operator" data-value="*">*</button>
+    </div>
+    <div class="row">
+      <button class="button number" data-value="4">4</button>
+      <button class="button number" data-value="5">5</button>
+      <button class="button number" data-value="6">6</button>
+      <button class="button operator" data-value="/">/</button>
+    </div>
+    <div class="row">
+      <button class="button number" data-value="1">1</button>
+      <button class="button number" data-value="2">2</button>
+      <button class="button number" data-value="3">3</button>
+      <button class="button operator" data-value="+">+</button>
+    </div>
+    <div class="row">
+      <button class="button number" data-value="0">0</button>
+      <button class="button operator" data-value=".">.</button>
+      <button class="button operator equals" data-value="=">=</button>
+      <button class="button operator" data-value="-">-</button>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
